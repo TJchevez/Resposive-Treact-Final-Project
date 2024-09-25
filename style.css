@@ -1145,12 +1145,8 @@ width: 100%;
     .design-illustration-image {
         height: 50%;
     }
-    .text {
-        position: relative;
-        display: flex;
-    }
     .button-get-started {
-        margin: 0 auto;
+        width: 100%;
     }
     .section-three-row {
         text-align: center;
