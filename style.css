@@ -173,11 +173,11 @@ Header
 .class-header {
     display: flex;
     align-items: center;
+    gap: 24px;
 }
 
 .box-left {
     width: 40%;
-    margin: 0px 90px;
 }
 
 .box-right {
@@ -218,18 +218,10 @@ Header
     height: 72px;
 }
 
-.email-button::before {
-    position: absolute;
-    display: inline-block;
-    margin: 0 auto;
-    width: 405.41;
-    height: 68px;
-}
-
 .text {
     position: absolute;
     display: inline-block;
-    padding: 20px 184px 20px 16px;
+    padding: 20px 184px 20px 1px;
     border-radius: 9999px;
     opacity: 0.5;
     font-weight: 700;
@@ -1031,72 +1023,12 @@ width: 100%;
 }
 
 /* SMALL PHONES, TABLETS, LARGE SMARTPHONES */
-@media (max-width: 768px) {
-    .corner-wrapper {
-        padding-top: 40px;
-    }
-    .padding-section {
-        padding: 0 24px;
-    }
-    .row {
-        padding: 80px 0;
-    }
-    .class-header {
-        flex-direction: column;
-        align-items: center;
-    }
-    .beautiful-header-h1 {
-        font-size: 24px;
-    }
-    .for-you-header {
-        font-size: 24px;
-    }
-    .our-customers-image {
-        max-width: 512vw;
-    }
-    .p-header {
-        font-size: 16px;
-        margin: 20px 0px;
+@media (max-width: 400px) {
+
+    .box-left {
         width: 100%;
     }
-    .footer-info {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 16px;
-        margin: 16px;
-    }
-    .footer-image-logo {
-        margin-bottom: 16px;
-    }
-    .treact-footer {
-        margin-bottom: 16px;
-    }
-    .footer-para {
-        margin-bottom: 24px;
-    }
-    .fa.fa-facebook::before {
-        margin: 16px ;
-    }
-    .fa.fa-twitter::before {
-        margin: 16px ;
-    }
-    .fa.fa-instagram::before {
-        margin: 16px ;
-    }
-    .plans-individual {
-        width: 50%;
-    }
-    .one-middle-five {
-        width: 50%;
-    }
-    .email-button::after {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
 }
-/* SMALL PHONES, LARGE SMARTPHONES */
 @media (max-width: 576px) {
     .corner-wrapper {
         padding-top: 40px;
@@ -1105,7 +1037,7 @@ width: 100%;
         padding: 0 24px;
     }
     .row {
-        padding: 80px 0;
+        width: 100%;
     }
     .class-header {
         flex-direction: column;
@@ -1127,11 +1059,12 @@ width: 100%;
         font-size: 16px;
         margin-bottom: 64px;
     }
-    
     .box-left {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
+        width: 100%;
+    }
+    
+    .beautiful-header-h1 {
+        font-size: 40px;
     }
     .trusted-line {
         margin: 0;
@@ -1145,9 +1078,7 @@ width: 100%;
     .design-illustration-image {
         height: 50%;
     }
-    .button-get-started {
-        width: 100%;
-    }
+    
     .section-three-row {
         text-align: center;
         display: flex;
@@ -1323,13 +1254,27 @@ width: 100%;
 
 /* TABLETS */
 @media (max-width: 768px) {
+    .corner-wrapper {
+        padding-top: 40px;
+    }
+    .padding-section {
+        padding: 0 24px;
+    }
+    .row {
+        padding: 80px 0;
+    }
+   
+    .p-header {
+        font-size: 16px;
+        margin: 20px 0px;
+        width: 100%;
+        text-align: center;
+    }
+
     .design-illustration-image {
         height: 50%;
     }
     .beautiful-header-h1 {
-        text-align: center;
-    }
-    .p-header {
         text-align: center;
     }
     .text {
@@ -1523,7 +1468,6 @@ width: 100%;
 .email-button {
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 .text {
     margin: 16px;
@@ -1531,6 +1475,42 @@ width: 100%;
 }
 .button-get-started {
     margin: 0 auto;
+    width: 100%;
+}
+.trusted-line {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    margin: 16px;
+}
+.footer-image-logo {
+    margin-bottom: 16px;
+}
+.treact-footer {
+    margin-bottom: 16px;
+}
+.footer-para {
+    margin-bottom: 24px;
+}
+.fa.fa-facebook::before {
+    margin: 16px ;
+}
+.fa.fa-twitter::before {
+    margin: 16px ;
+}
+.fa.fa-instagram::before {
+    margin: 16px ;
+}
+.plans-individual {
+    width: 50%;
+}
+.one-middle-five {
+    width: 50%;
 }
 }
 
@@ -1538,7 +1518,13 @@ width: 100%;
     .class-header {
         display: flex;
         flex-direction: column;
-        align-items: center;
+    }
+    .box-left {
+        width: 100%;
+    }
+    .our-customers-image {
+        width: 50%;
+        margin: 0 auto;
     }
     .beautiful-header-h1 {
         text-align: center;
@@ -1553,21 +1539,9 @@ width: 100%;
     .our-customers-image {
         padding: 0px;
     }
-    .email-button::after {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
     
 }
-@media (max-width: 400px) {
-    .email-button {
-        margin: 80px 0px;
-    }
-    .button-get-started {
-        margin: 0 auto;
-    }
-}
+
 @media (max-width: 1024px) {
     .nav-links {
         display: none;
