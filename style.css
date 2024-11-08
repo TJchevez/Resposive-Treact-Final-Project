@@ -908,7 +908,7 @@ Last Section
 }
 
 .develop-section-seven {
-    color: #c1c8d7;
+    color: #e7eaf0;
     font-size: 30px;
     font-weight: 700;
     width: 100%;
@@ -945,7 +945,9 @@ width: 100%;
     flex-direction: column;
     width: calc(100%/5);
     align-items: center;
+    text-align: center;
     padding-top: 64px;
+    color: #f1f3f7;
 }
 
 .footer-info {
@@ -988,11 +990,12 @@ width: 100%;
 .font-footer-links {
     list-style: none;
     margin: 12px 0px 0px;
-    color: #c7bdc6;
+    color: #dfd6dd;
+    font-weight: 500;
 }
 
 .row-links-font {
-    color: #d3cde0;
+    color: #efedf5;
     font-size: 16px;
     font-weight: 700;
 }
@@ -1032,6 +1035,16 @@ width: 100%;
 
     .box-left {
         width: 100%;
+    }
+    .section-seven-container {
+        height: 48vh;
+        display: flex;
+        justify-content: center;
+    }
+    .footer-box {
+        display: flex;
+        justify-content: center;
+        gap: 48px;
     }
 }
 @media (max-width: 576px) {
@@ -1529,7 +1542,6 @@ width: 100%;
     }
 
     .our-customers-image {
-        width: 50%;
         margin: 0 auto;
     }
     .beautiful-header-h1 {
@@ -1541,6 +1553,8 @@ width: 100%;
     }
     .trusted-line {
         text-align: center;
+        margin-bottom: 24px;
+        font-size: 16px;
     }
     .our-customers-image {
         padding: 0px;
