@@ -1038,8 +1038,6 @@ width: 100%;
     }
     .section-seven-container {
         height: 56vh;
-        display: flex;
-        justify-content: center;
     }
     .footer-box {
         display: flex;
@@ -1457,10 +1455,10 @@ width: 100%;
     align-items: center;
   }
   .get-button {
-    margin: 8px 0px;
+    margin: 16px 0px;
 }
 .contact-button {
-    margin: 8px 0px;
+    margin: 16px 0px;
   }
  .socials-footer {
     display: flex;
