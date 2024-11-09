@@ -215,13 +215,14 @@ Header
     color: #243E63;
     font-size: 16px;
     margin: 40px 0px;
-    height: 72px;
+}
+.email-button {
+    display: flex;
 }
 
 .text {
-    position: absolute;
-    display: inline-block;
-    padding: 20px 184px 20px 1px;
+    position: relative;
+    padding: 20px 168px 20px 16px;
     border-radius: 9999px;
     opacity: 0.5;
     font-weight: 700;
@@ -263,7 +264,7 @@ Section Two
 }
 
 .section-two-container {
-    padding: 96px 0px;
+    padding: 96px 24px;
 }
 
 .section-two-row {
@@ -395,7 +396,7 @@ Section Three
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 96px 0px;
+    padding: 96px 24px;
 }
 
 .section-three-left {
@@ -420,11 +421,9 @@ Section Three
 
 .designed-and-developed-by {
     width: 100%;
-    max-width: 439.5px;
-    height: 180px;
     font-weight: 900px;
     font-size: 48px;
-    margin: 16px 0px 0px;
+    margin: 16px 0px 16px 0px;
 
 }
 
@@ -466,7 +465,7 @@ Section Four
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 96px 0px;
+    padding: 96px 24px;
     display: flex;
 }
 
@@ -745,7 +744,7 @@ Last Section
     margin: 0 auto;
     display: flex;
     align-items: center;
-    padding: 96px 0px;
+    padding: 96px 24px;
 }
 
 .section-six-left {
@@ -1037,6 +1036,13 @@ width: 100%;
     .box-left {
         width: 100%;
     }
+    .easy-para {
+        font-size: 32px;
+    }
+    .our-clients {
+        font-size: 32px;
+    }
+
     .section-seven-container {
         height: 56vh;
     }
@@ -1325,6 +1331,7 @@ width: 100%;
     .section-three-row {
         display: flex;
         flex-direction: column-reverse;
+        width: 100%;
     }
     .section-three-right-image {
         width: 100%;
@@ -1344,14 +1351,15 @@ width: 100%;
     text-align: center;
    }
    .section-three-para {
-    font-size: 14px;
-    padding-top: 8px;
+    font-size: 16px;
+    padding: 8px 72px 0px 72px;
     text-align: center;
    }
    .section-three-left {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
    }
    .service-description {
     width: 100%;
@@ -1379,11 +1387,31 @@ width: 100%;
     flex-direction: column;
     align-items: center;
   }
+
   .steps {
     text-align: center;
   }
   .easy-para {
     text-align: center;
+    width: 100%;
+  }
+ .get-started-four {
+    text-align: center;
+ }
+  .numbers-and-steps {
+    margin: 0 auto;
+  }
+  .tri-section-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .number-section-four {
+    margin: 0 auto;
+  }
+  .words-section-four {
+    margin: 0 auto;
+    text-align: center;
+    padding: 8px 0px;
   }
   .laptop-pic {
     width: 100%;
@@ -1489,6 +1517,7 @@ width: 100%;
 .text {
     margin: 16px;
     padding: 16px 24px;
+    width: 100%;
 }
 .button-get-started {
     margin: 0 auto;
@@ -1539,6 +1568,7 @@ width: 100%;
     .box-left {
         width: 80%;
     }
+    
 
     .our-customers-image {
         margin: 0 auto;
@@ -1550,6 +1580,12 @@ width: 100%;
         text-align: center;
         margin: 20px 0px;
     }
+    .email-button {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
     .trusted-line {
         text-align: center;
         margin-bottom: 24px;
@@ -1587,6 +1623,6 @@ width: 100%;
 }
 @media (max-width: 1200px) {
     .footer-info {
-        margin-bottom: 40px;
+        margin-bottom: 64px;
     }
 }
