@@ -539,6 +539,121 @@ Section Four
 }
 
 /*
+Values Section 
+*/
+
+
+.row_values {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.value_container {
+    padding: 96px 24px;
+}
+.values-left-side {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 16px;
+}
+
+.values__value--header {
+    font-weight: 700;
+    font-size: 16px;
+    color: #6415ff;
+    letter-spacing: 0.8px;
+}
+
+.we_always{
+    color: #243E63;
+    font-size: 48px;
+    margin: 16px 0px 0px;
+    font-weight: 900;
+    width: 100%;
+}
+.value__principles{
+    color: #6415ff;
+    font-size: 48px;
+    margin: 16px 0px 0px;
+    font-weight: 900;
+    width: 100%;
+}
+
+.values_p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #7c8ba1;
+}
+.fa-dollar-sign:before {
+    color: rgb(2, 105, 2);
+    background-color: rgba(39, 188, 39, 0.829);
+    padding: 14px 18px;
+    border-radius: 99px;
+}
+
+
+.fa-briefcase:before {
+    color: maroon;
+    background-color: rgba(224, 111, 126, 0.829);
+    padding: 16px 16px;
+    border-radius: 99px;
+}
+
+.wePromise {
+    font-size: 16px;
+    color: #545e6d;
+    text-align: left;
+}
+.sign_header {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.wePromise {
+    margin-top: 32px;
+    line-height: 1.5;
+}
+
+.value__learnmore--button {
+    display: flex;
+}
+
+
+
+.LearnMoreButton {
+    background-color: #5620d4e5;
+    color: white;
+    font-size: 14px;
+    margin: 32px 0px 0px;
+    padding: 12px 32px;
+    border-radius: 9999px;
+    width: 100%;
+    max-width: 141.69px;
+    border-style: none;
+}
+
+.values-right-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+}
+
+.values {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.value_img {
+    width: 80%;
+}
+
+/*
 Section Five
 */
 
@@ -1609,6 +1724,44 @@ width: 100%;
 }
 
 @media (max-width: 1024px) {
+    .row_values {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .values-left-side {
+        text-align: center;
+        width: 100%;
+    }
+
+    .values {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sign_header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .wePromise {
+        margin: 24px 0px;
+        text-align: center;
+    }
+
+    
+.value__learnmore--button {
+    margin: 0 auto;
+}
+
+    .value_img {
+        margin: 16px 0px;
+        width: 100%;
+    }
+
     .nav-links {
         display: none;
     }
