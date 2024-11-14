@@ -1307,6 +1307,10 @@ width: 100%;
     text-align: center;
     padding: 0px;
   }
+  .section-seven-container {
+    height: 30vh;
+  }
+
   .section-seven-row {
     display: flex;
     flex-direction: column;
@@ -1317,6 +1321,8 @@ width: 100%;
     text-align: center;
     margin: 0px 16px;
   }
+  
+
   .button-seven-wrapper {
     display: flex;
     flex-direction: column;
