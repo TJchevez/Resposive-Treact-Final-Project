@@ -1724,6 +1724,10 @@ width: 100%;
 }
 
 @media (max-width: 1024px) {
+.value_container {
+    padding: 64px 24px;
+}
+
     .row_values {
         display: flex;
         flex-direction: column;
@@ -1748,13 +1752,21 @@ width: 100%;
     }
 
     .wePromise {
-        margin: 24px 0px;
+        margin: 16px 0px;
         text-align: center;
+    }
+
+    .values_p {
+        margin-bottom: 8px;
     }
 
     
 .value__learnmore--button {
     margin: 0 auto;
+}
+
+.value_af_pro {
+    margin: 16px 0px;
 }
 
     .value_img {
