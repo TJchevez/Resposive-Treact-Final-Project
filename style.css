@@ -1158,8 +1158,9 @@ width: 100%;
     }
 
     .section-seven-container {
-        height: 56vh;
-    }
+        height: 60vh;
+      }
+      
     .footer-box {
         display: flex;
         justify-content: center;
@@ -1308,7 +1309,7 @@ width: 100%;
     padding: 0px;
   }
   .section-seven-container {
-    height: 30vh;
+    height: 60vh;
   }
 
   .section-seven-row {
