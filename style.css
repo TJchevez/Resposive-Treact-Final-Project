@@ -77,6 +77,7 @@
     padding: 0px 0px 4px;
     text-decoration: none;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .nav-button {
@@ -222,7 +223,7 @@ Header
 
 .text {
     position: relative;
-    padding: 20px 168px 20px 16px;
+    padding: 20px 168px 20px 20px;
     border-radius: 9999px;
     opacity: 0.5;
     font-weight: 700;
@@ -362,6 +363,7 @@ Section Two
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    cursor: pointer;
 }
 
 
@@ -440,6 +442,7 @@ Section Three
     width: 100%;
     max-width: 141.69px;
     border-style: none;
+    cursor: pointer;
 }
 
 .section-three-right-image {
@@ -634,6 +637,7 @@ Values Section
     width: 100%;
     max-width: 141.69px;
     border-style: none;
+    cursor: pointer;
 }
 
 .values-right-side {
@@ -735,6 +739,7 @@ Section Five
     margin-bottom: 16px;
     background: linear-gradient(45deg,rgb(38, 129, 125),rgb(129, 230, 217));
     text-align: center;
+    cursor: pointer;
 }
 .button-last-five {
     color: #f7fafc;
@@ -749,6 +754,7 @@ Section Five
     margin-bottom: 16px;
     background: linear-gradient(45deg,rgb(245, 101, 101),rgb(254, 178, 178));
     text-align: center;
+    cursor: pointer;
 }
 .button-mid-five {
     color: #6415ff;
@@ -763,6 +769,7 @@ Section Five
     margin-bottom: 16px;
     background: white;
     text-align: center;
+    cursor: pointer;
 }
 .one-one-five {
     display: flex;
@@ -1007,6 +1014,7 @@ Last Section
     border-radius: 9999px;
     border-style: none;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .contact-button {
@@ -1018,6 +1026,7 @@ Last Section
     border-radius: 9999px;
     font-weight: 700;
     border-color: #a0aEc0;
+    cursor: pointer;
 }
 
 .develop-section-seven {
@@ -1061,6 +1070,7 @@ width: 100%;
     text-align: center;
     padding-top: 64px;
     color: #f1f3f7;
+    cursor: pointer;
 }
 
 .footer-info {
@@ -1787,6 +1797,7 @@ width: 100%;
 
 .btn__menu {
     display: block;
+    cursor: pointer;
 }
 .footer-info {
     margin: 0px 80px
