@@ -91,6 +91,16 @@
     text-decoration: none;
 }
 
+.nav-button :hover {
+    color: white;
+    background-color: #6415ff;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 9999px;
+    border: none;
+    text-decoration: none;
+}
+
 .btn__menu {
     background-color: transparent;
     font-size: 40px;
@@ -242,6 +252,10 @@ Header
     margin: 4px 8px 16px 180px;
     width: 160px;
     height: 50px;
+}
+
+.button-get-started:hover {
+     background: linear-gradient(45deg, rgb(142, 101, 245), rgb(254, 178, 178));
 }
 
 .trusted-margin {
@@ -445,6 +459,10 @@ Section Three
     cursor: pointer;
 }
 
+.section-three-button:hover {
+background: linear-gradient(45deg, rgb(142, 101, 245), rgb(254, 178, 178));
+}
+
 .section-three-right-image {
     width: 100%;
 }
@@ -640,6 +658,10 @@ Values Section
     cursor: pointer;
 }
 
+.LearnMoreButton:hover {
+    background: linear-gradient(45deg, rgb(142, 101, 245), rgb(254, 178, 178));
+}
+
 .values-right-side {
     display: flex;
     flex-direction: column;
@@ -741,6 +763,10 @@ Section Five
     text-align: center;
     cursor: pointer;
 }
+.button-one-five:hover {
+    transform: scale(110%);
+    transition-timing-function: ease-out;
+}
 .button-last-five {
     color: #f7fafc;
     font-size: 14px;
@@ -756,6 +782,11 @@ Section Five
     text-align: center;
     cursor: pointer;
 }
+
+.button-last-five:hover {
+    transform: scale(110%);
+    transition-timing-function: ease-out;
+}
 .button-mid-five {
     color: #6415ff;
     font-size: 14px;
@@ -770,6 +801,11 @@ Section Five
     background: white;
     text-align: center;
     cursor: pointer;
+}
+
+.button-mid-five:hover {
+    transform: scale(110%);
+    transition-timing-function: ease-out;
 }
 .one-one-five {
     display: flex;
@@ -972,6 +1008,11 @@ Last Section
     margin: 0px 16px;
 }
 
+.arrow-left:hover {
+    transform: scale(110%);
+    transition-timing-function: ease-out;
+}
+
 .arrow-right {
     width: 100%;
     border-radius: 9999px;
@@ -980,6 +1021,11 @@ Last Section
     text-decoration: none;
     padding: 16px;
     margin: 0px 16px;
+}
+
+.arrow-right:hover {
+    transform: scale(110%);
+    transition-timing-function: ease-out;
 }
 
 /*section seven */
@@ -1017,6 +1063,12 @@ Last Section
     cursor: pointer;
 }
 
+.get-button:hover {
+    color: white;
+    transform: scale(110%);
+    transition-timing-function: ease-out;
+}
+
 .contact-button {
     color: #c1c8d7;
     font-size: 16px;
@@ -1027,6 +1079,12 @@ Last Section
     font-weight: 700;
     border-color: #a0aEc0;
     cursor: pointer;
+}
+
+.contact-button:hover {
+    color: white;
+    transform: scale(110%);
+    transition-timing-function: ease-out;
 }
 
 .develop-section-seven {
@@ -1118,6 +1176,11 @@ width: 100%;
     font-weight: 500;
 }
 
+.font-footer-links:hover {
+    transform: scale(110%);
+    transition-timing-function: ease-out;
+}
+
 .row-links-font {
     color: #efedf5;
     font-size: 16px;
@@ -1139,6 +1202,12 @@ width: 100%;
     padding: 16px 16px;
     margin: 8px;
 }
+
+.fa.fa-facebook:hover {
+    transform: scale(110%);
+    transition-timing-function: ease-out;
+}
+
 .fa.fa-twitter::before {
     color: #000000;
     background-color: #ffffff;
@@ -1146,12 +1215,23 @@ width: 100%;
     padding: 16px 16px;
     margin: 8px;
 }
+
+.fa.fa-twitter:hover {
+    transform: scale(110%);
+    transition-timing-function: ease-out;
+}
+
 .fa.fa-instagram::before {
     color: #000000;
     background-color: #ffffff;
     border-radius: 50%;
     padding: 16px 16px;
     margin: 8px;
+}
+
+.fa.fa-instagram:hover {
+    transform: scale(110%);
+    transition-timing-function: ease-out;
 }
 
 /* SMALL PHONES, TABLETS, LARGE SMARTPHONES */
